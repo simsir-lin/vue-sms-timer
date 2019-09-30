@@ -15,7 +15,7 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import VueSmsTimer from "../src/vue-sms-timer.vue";
+import VueSmsTimer from "vue-sms-timer";
 
 @Component({
   components: {

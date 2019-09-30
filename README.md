@@ -2,12 +2,12 @@
 > 短信验证码倒计时
 
 ### 使用
-1. 安装
+* 安装
 ```bash
 npm install --save vue-sms-timer
 ```
 
-2. 引入
+* 引入
 
 ```global
 import Vue from 'vue'
@@ -24,7 +24,7 @@ const app = new Vue({
 })
 ```
 
-3. 添加
+* 添加
 ```
 <vue-sms-timer :http-request="post" text="测试获取验证码" time="60" @start="handleStart" @end="handleEnd">
   <template v-slot="{ countDownText }">
@@ -60,6 +60,3 @@ const app = new Vue({
 
 ### 贡献
 如果你有好的意见或建议，欢迎给我提issue!
-
-### TODO
-* [x] 支持打开微信开放能力功能
