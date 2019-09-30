@@ -31,11 +31,7 @@ export default class App extends Vue {
       }, 500);
     });
   }
-  handleStart() {
-    console.log("handleStart");
-  }
-  handleEnd() {
-    console.log("handleEnd");
-  }
+  handleStart() {}
+  handleEnd() {}
 }
 </script>
