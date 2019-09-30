@@ -1,11 +1,11 @@
 {
-  "name": "vue-sms-code",
-  "version": "0.0.1",
-  "main": "dist/vue-sms-code.common.js",
+  "name": "vue-sms-timer",
+  "version": "0.0.2",
+  "main": "dist/vue-sms-timer.common.js",
   "scripts": {
     "dev": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue-sms-code ./src/vue-sms-code.vue",
+    "build": "vue-cli-service build --target lib --name vue-sms-timer ./src/vue-sms-timer.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

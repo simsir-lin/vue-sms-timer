@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <vue-sms-code
+    <vue-sms-timer
       :http-request="post"
       text="测试获取验证码"
       @start="handleStart"
@@ -9,17 +9,17 @@
       <template v-slot="{ countDownText }">
         <button type="button" name="button">{{ countDownText }}</button>
       </template>
-    </vue-sms-code>
+    </vue-sms-timer>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import VueSmsCode from "../src/vue-sms-code.vue";
+import VueSmsTimer from "../src/vue-sms-timer.vue";
 
 @Component({
   components: {
-    VueSmsCode
+    VueSmsTimer
   }
 })
 export default class App extends Vue {

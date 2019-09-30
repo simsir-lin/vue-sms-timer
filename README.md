@@ -26,11 +26,11 @@ const app = new Vue({
 
 3. 添加
 ```
-<vue-sms-code :http-request="post" text="测试获取验证码" time="60" @start="handleStart" @end="handleEnd">
+<vue-sms-timer :http-request="post" text="测试获取验证码" time="60" @start="handleStart" @end="handleEnd">
   <template v-slot="{ countDownText }">
     <button type="button" name="button">{{ countDownText }}</button>
   </template>
-</vue-sms-code>
+</vue-sms-timer>
 ```
 
 ### 调试开发
