@@ -1,6 +1,6 @@
 {
   "name": "vue-sms-timer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/vue-sms-timer.common.js",
   "scripts": {
     "dev": "vue-cli-service serve",
